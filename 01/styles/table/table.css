@@ -1,0 +1,19 @@
+.wrapper {
+  display: table;
+  width: 100%;
+  border-spacing: 0.5rem;
+}
+
+.col-5, .col-2 {
+  display: table-cell;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.col-5 {
+  width: 45%;
+}
+
+.col-2 {
+  width: 10%;
+}

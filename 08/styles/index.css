@@ -1,0 +1,11 @@
+@import url('./reset.css');
+@import url('./typography.css');
+
+.heading-1 {
+  font-size: 32px;
+}
+
+.ssd {
+  font-family: 'icomoon' !important;
+  color: red;
+}

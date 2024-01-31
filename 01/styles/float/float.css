@@ -1,0 +1,47 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.col-5, .col-2 {
+  height: 100%;
+  float: left;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.wrapper .col-5:nth-child(1)::after, .col-2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  box-shadow: ;
+  left: 0;
+  background-color: red;
+  z-index: 1;
+}
+
+.col-5 {
+  width: calc(41.666%);
+  margin-right: 1rem;
+}
+
+.col-2 {
+  width: calc(16.666% - 2rem);
+}
