@@ -1,9 +1,8 @@
 @import url('./reset.css');
-@import url('./flex/flex.css');
-/* @import url('./grid/grid.css'); */
-/* @import url('./grid/grid.css'); */
-/* @import url('./positioning/positioning.css'); */
-/* @import url('./flex/flex.css'); */
+@import url('./flex/index.css');
+/* @import url('./grid/index.css'); */
+/* @import url('./positioning/index.css'); */
+/* @import url('./flex/index.css'); */
 
 body {
   width: 100%;
