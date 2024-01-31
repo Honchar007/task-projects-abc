@@ -8,6 +8,7 @@
   display: table-cell;
   padding: 1rem;
   border: 1px solid #ccc;
+  box-shadow: 0px 1px 5px 0px #ccc;
 }
 
 .col-5 {

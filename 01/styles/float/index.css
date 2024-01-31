@@ -24,17 +24,17 @@
   border: 1px solid #ccc;
 }
 
-.wrapper .col-5:nth-child(1)::after, .col-2::after {
+.wrapper .col-5::after,
+.col-2::after {
   content: '';
   display: block;
   position: absolute;
   top: 0;
   height: 100%;
-  width: 100%;
-  box-shadow: ;
+  width: 10px;
   left: 0;
-  background-color: red;
-  z-index: 1;
+  border: 1px solid #ccc;
+  box-shadow: 0px 1px 5px 0px #ccc;
 }
 
 .col-5 {
@@ -43,5 +43,19 @@
 }
 
 .col-2 {
+  width: calc(16.666% - 2rem);
+}
+
+.wrapper .col-5:nth-child(1)::after {
+  width: 41.666%;
+}
+
+.wrapper .col-5:nth-child(2)::after {
+  left: calc(41.666% + 1rem);
+  width: 41.666%;
+}
+
+.wrapper .col-2::after {
+  left: calc(41.666% + 41.666% + 2rem);
   width: calc(16.666% - 2rem);
 }
