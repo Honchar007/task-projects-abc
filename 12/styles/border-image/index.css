@@ -1,0 +1,8 @@
+.border-image {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(178, 241, 3);
+  border: 10px solid;
+  border-image: url('../../assets/images/border.png') 25;
+  border-image-repeat: repeat;
+}
