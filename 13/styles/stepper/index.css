@@ -1,0 +1,70 @@
+.stepper {
+  width: 100%;
+  text-align: center;
+}
+
+.stepper li {
+  display: inline-block;
+  padding: 10px 40px;
+  background: #e8e8e8;
+  color: #fff;
+  position: relative;
+  width: calc((100% / 3) - 2.7px);
+}
+
+.stepper li:not(:first-child)::before {
+  content: '';
+  border-left: 20px solid #fff;
+  border-top: 20px solid transparent;
+  border-bottom: 19px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.stepper li:not(:last-child)::after {
+  content: '';
+  border-left: 20px solid #e8e8e8;
+  border-top: 20px solid transparent;
+  border-bottom: 19px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 1;
+}
+
+.stepper li.active {
+  background: #41b50f;
+}
+
+.stepper li.active::after {
+  border-left-color: #41b50f;
+}
+
+.stepper li.warn {
+  background: #ffc000;
+}
+
+.stepper li.warn::after {
+  border-left-color: #ffc000;
+}
+
+.stepper li.error {
+  color: white;
+  background: #ed2700;
+}
+
+.stepper li.error::after {
+  border-left-color: #ed2700;
+}
+
+.stepper li.default {
+  background: #bcc9cf;
+}
+
+.stepper li.default::after {
+  border-left-color: #bcc9cf;
+}
+
+.stepper li.percent {
+  color: black;
+}
