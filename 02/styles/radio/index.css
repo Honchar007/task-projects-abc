@@ -5,7 +5,6 @@
   -moz-appearance: none;
   width: 16px;
   height: 16px;
-  margin: 0;
   background-color: #fafafa;
   border: 1px solid #e5e7e7;
   border-radius: 50%;
@@ -27,8 +26,6 @@
   border-radius: 50%;
   background: radial-gradient( #99a1a7, #878e94);
   text-align: center;
-
-  /* Center the radio button */
   position: absolute;
   top: 50%;
   left: 50%;
