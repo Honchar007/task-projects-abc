@@ -1,0 +1,25 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background:
+    radial-gradient(farthest-side, #dddddd 84%, transparent 85% 100%),
+    conic-gradient(#61a8dc 75%, #5472bf 0%);
+  border-radius: 50%;
+  font-size: 32px;
+}
+
+.loading2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border: 10px solid #61a8dc;
+  border-left: 10px solid #5472bf;
+  border-radius: 50%;
+  background-color: #dddddd;
+  font-size: 32px;
+}
