@@ -1,27 +1,50 @@
 .checkbox {
+  display: none;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  margin: 0;
+  outline: none;
+}
+
+.checkbox-text {
+  position: relative;
+  display: -webkit-box;
+  padding-left: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.checkbox-text::before {
+  position: absolute;
+  display: block;
+  content: '';
   width: 16px;
   height: 16px;
-  margin: 0;
+  top: 0;
+  left: 0%;
+  margin-right: 5px;
   background-color: #fafafa;
   border: 1px solid #e5e7e7;
   border-radius: 1px;
-  outline: none;
+  color: #A0A8AF;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.checkbox:checked {
+.checkbox-text:hover::before {
+  background-color: #e9ecee;
+}
+
+.checkbox:checked + .checkbox-text::before {
   background-color: #e9ecee;
   border-color: #d0d6db;
 }
 
-.checkbox:checked::before {
+.checkbox:checked + .checkbox-text::before {
   content: "\2713";
-  display: block;
   text-align: center;
   line-height: 16px;
-  color: #A0A8AF;
 }
