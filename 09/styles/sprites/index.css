@@ -1,6 +1,5 @@
 .sprite-container {
   width: 100%;
-  height: 200px;
 }
 
 .icon {
@@ -8,8 +7,7 @@
   height: 76px;
   display: inline-block;
   background-image: url('../../assets/icons/sprite.png');
-  background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 76px 304px;
 }
 
 .icn-web {
@@ -17,13 +15,105 @@
 }
 
 .icn-msg {
-  background-position: 0 33.33%;
+  background-position: 0 -76px;
 }
 
 .icn-hlp {
-  background-position: 0 66.66%;
+  background-position: 0 -152px;
 }
 
 .icn-bk {
-  background-position: 0 100%;
+  background-position: 0 -228px;
+}
+
+/* Extra small sizing (xs) */
+.xs {
+  background-size: 16px 64px;
+  width: 16px;
+  height: 16px;
+}
+
+.xs.icn-web {
+  background-position: 0 0;
+}
+
+.xs.icn-msg {
+  background-position: 0 -32px;
+}
+
+.xs.icn-hlp {
+  background-position: 0 -64px;
+}
+
+.xs.icn-bk {
+  background-position: 0 -96px;
+}
+
+/* Small sizing (sm) */
+.sm {
+  background-size: 32px 128px;
+  width: 32px;
+  height: 32px;
+}
+
+.icn-web.sm {
+  background-position: 0 0;
+}
+
+.icn-msg.sm {
+  background-position: 0 -32px;
+}
+
+.icn-hlp.sm {
+  background-position: 0 -64px;
+}
+
+.icn-bk.sm {
+  background-position: 0 -96px;
+}
+
+/* Medium sizing (md) */
+.md {
+  background-size: 48px 192px;
+  width: 48px;
+  height: 48px;
+}
+
+.icn-web.md {
+  background-position: 0 0;
+}
+
+.icn-msg.md {
+  background-position: 0 -48px;
+}
+
+.icn-hlp.md {
+  background-position: 0 -96px;
+}
+
+.icn-bk.md {
+  background-position: 0 -144px;
+}
+
+/* Large sizing (lg) */
+.lg {
+  background-size: 64px 256px;
+  width: 64px;
+  height: 64px;
+}
+
+.icn-web.lg {
+  background-position: 0 0;
+}
+
+.icn-msg.lg {
+  background-position: 0 -64px;
+}
+
+.icn-hlp.lg {
+  background-position: 0 -128px;
+}
+
+.icn-bk.lg {
+  background-position: 0 -192px;
 }
