@@ -1,0 +1,19 @@
+.container {
+  width: 700px;
+  height: 700px;
+  display: table;
+  border: 1px solid blue;
+}
+
+.row {
+  padding: 10px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.content-wrapper {
+  background-color: red;
+  display: inline-block;
+  vertical-align: top;
+}

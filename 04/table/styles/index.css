@@ -1,0 +1,7 @@
+@import url('./reset.css');
+@import url('./table/index.css');
+
+body {
+  width: 100%;
+  height: 100vh;
+}
