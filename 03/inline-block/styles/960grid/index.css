@@ -1,0 +1,66 @@
+:root {
+  --border-width: 1px;
+  --minus-value: 3px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  background: grey;
+  padding: 10px 10px;
+}
+
+.row {
+  margin: 20px -10px;
+  height: 100%;
+  font-size: 0;
+  line-height: 0;
+}
+
+.row:first-child {
+  margin-top: 0;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+.col {
+  display: inline-block;
+  height: 100%;
+  padding: 0 10px;
+  background-color: transparent;
+  font-size: 16px;
+  font-size: initial;
+  line-height: initial;
+  font-family: initial;
+  text-align: center;
+}
+
+.col > div {
+  border: var(--border-width) solid black;
+}
+
+.col-1 { width: 8.333%; }
+
+.col-2 { width: 16.666%; }
+
+.col-3 { width: 25%; }
+
+.col-4 { width: 33.333%; }
+
+.col-5 { width: 41.666%; }
+
+.col-6 { width: 50%; }
+
+.col-7 { width: 58.333%; }
+
+.col-8 { width: 66.666%; }
+
+.col-9 { width: 75%; }
+
+.col-10 { width: 83.333%; }
+
+.col-11 { width: 91.666%; }
+
+.col-12 { width: 100%; }
