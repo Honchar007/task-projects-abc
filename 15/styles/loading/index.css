@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   width: 150px;
   height: 150px;
   background:
@@ -9,6 +10,15 @@
     conic-gradient(#61a8dc 75%, #5472bf 0%);
   border-radius: 50%;
   font-size: 32px;
+  transform: rotate(-45deg);
+}
+
+.loading::after {
+  position: absolute;
+  content: '75%';
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg) ;
 }
 
 .loading2 {
