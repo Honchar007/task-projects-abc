@@ -1,0 +1,48 @@
+.wrapper {
+  width: 100%;
+  padding: 10px;
+}
+
+ol {
+  counter-reset: section;
+  list-style: none;
+}
+
+ul {
+  list-style-position: inside;
+  list-style: circle;
+}
+
+li {
+  margin: 5px;
+  position: relative;
+}
+
+ol > li {
+  position: relative;
+  counter-increment: section;
+  background-color: #f6f6f6;
+  border-top: 2px solid #666666;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+ul > li {
+  margin-left: 40px;
+}
+
+ol > li::before {
+  position: absolute;
+  content: counter(section) '.';
+  display: block;
+  text-align: center;
+  top: -2px;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background-color: #666666;
+}
+
+li::marker {
+  color: rgb(0, 0, 0);
+}
