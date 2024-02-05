@@ -1,0 +1,48 @@
+.bg {
+  padding: 40px 40px;
+  background-image: url('../../assets/images/header.png');
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 40px 40px; */
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  margin-right: 40px;
+  color: #114455;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.nav-link > img {
+  fill: white;
+}
+
+.white {
+  background-color: white;
+}
+
+.outline {
+  border: 1px solid #114455;
+}
+
+.primary {
+  background-color: #114455;
+  color: white;
+}

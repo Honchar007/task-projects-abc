@@ -1,0 +1,18 @@
+@import url('./reset.css');
+@import url('./header/index.css');
+@import url('./intro/index.css');
+@import url('./icons/arrow-right.css');
+
+html, body {
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-family: 'Gilroy-Heavy', sans-serif;
+  font-family: 'Gilroy-Light', sans-serif;
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: 'Gilroy-Regular', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
