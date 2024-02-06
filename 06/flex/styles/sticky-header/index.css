@@ -15,7 +15,6 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
-  position: sticky;
   bottom: 0;
   border-top: 1px solid grey;
   background-color: white;
