@@ -41,6 +41,7 @@ ol > li::before {
   width: 20px;
   height: 20px;
   background-color: #666666;
+  color: white;
 }
 
 li::marker {
