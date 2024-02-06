@@ -25,6 +25,7 @@ ol > li {
   border-top: 2px solid #666666;
   margin-left: 20px;
   padding-left: 10px;
+  word-break: break-all;
 }
 
 ul > li {
