@@ -1,25 +1,48 @@
+:root {
+  --stepper-background-color: #000;
+}
+
 .stepper {
   width: 100%;
   text-align: center;
+}
+
+.stepper {
+  font-size: 0;
+  letter-spacing: 0;
+  font-family: monospace;
 }
 
 .stepper li {
   display: inline-block;
   padding: 10px 40px;
   background: #e8e8e8;
-  color: #fff;
+  margin-right: 2px;
+
   position: relative;
-  width: calc((100% / 3) - 2.7px);
+  width: calc(100% / 3 - 2px);
+}
+
+.step-text {
+  display: block;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .stepper li:not(:first-child)::before {
   content: '';
-  border-left: 20px solid #fff;
+  border-left: 20px solid var(--stepper-background-color);
   border-top: 20px solid transparent;
   border-bottom: 19px solid transparent;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0px;
 }
 .stepper li:not(:last-child)::after {
   content: '';
@@ -65,6 +88,6 @@
   border-left-color: #bcc9cf;
 }
 
-.stepper li.percent {
+.stepper .step-text.percent {
   color: black;
 }
