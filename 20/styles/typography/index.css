@@ -1,0 +1,21 @@
+@import url('./fonts/index.css');
+
+.title {
+  width: 50%;
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 80px;
+  color: #114455;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.subtitle {
+  font-family: 'Gilroy';
+  color: #1F1F1F;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  text-align: left;
+}

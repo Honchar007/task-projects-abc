@@ -1,0 +1,12 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  margin-top: 50px;
+  padding-bottom: 400px;
+}
+
+.intro > .nav-link {
+  width: 200px;
+}

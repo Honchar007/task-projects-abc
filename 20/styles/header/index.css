@@ -1,6 +1,20 @@
-.bg {
+@import url('./intro/index.css');
+
+.header-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
   padding: 40px 40px;
+  width: 100%;
   background-image: url('../../assets/images/header.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.header-wrapper > span {
+  display: block;
+  align-self: center;
 }
 
 .header {
@@ -14,10 +28,9 @@
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  width: 20%;
-  margin-right: 40px;
+  gap: 40px;
   color: #114455;
 }
 
@@ -26,16 +39,10 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 5px 10px;
-  font-family: 'Gilroy-Bold', sans-serif;
-}
-
-.nav-link > img {
-  fill: white;
-}
-
-.white {
-  background-color: white;
+  padding: 10px 20px;
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
 }
 
 .outline {

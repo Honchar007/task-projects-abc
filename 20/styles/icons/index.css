@@ -1,0 +1,27 @@
+.icn-arrow {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('../../assets/icons/arrow-right.svg');
+  background-size: 32px 64px;
+}
+
+.right-green {
+  background-position: 0 0;
+}
+
+.right-white {
+  background-position: 0 -32px;
+}
+
+.icn-expand {
+  display: inline-block;
+  width: 38px;
+  height: 28px;
+  background-image: url('../../assets/icons/expand.svg');
+  background-size: 38px 28px;
+}
+
+.down {
+  background-position: 0 0;
+}
