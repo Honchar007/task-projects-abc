@@ -1,6 +1,12 @@
+@import url('./swipper/index.css');
+@import url('./aboutus/index.css');
+
 .main-wrapper {
-  margin-top: 200px;
   padding: 0 40px;
+}
+
+.heading > .title {
+  color: #1F1F1F;
 }
 
 .heading > .subtitle {
