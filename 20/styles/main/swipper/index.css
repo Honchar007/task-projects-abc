@@ -1,3 +1,48 @@
 .swipper {
   margin-top: 80px;
 }
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: auto;
+  margin-top: 80px;
+}
+
+.card-wrapper {
+  position: relative;
+  flex: 0 0 auto;
+  width: 645px;
+  height: 760px;
+  margin-left: 140px;
+}
+
+.card-wrapper:first-child {
+  margin-left: 70px;
+}
+
+.card-list::-webkit-scrollbar {
+  display: none;
+}
+
+.card-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.city {
+  position: absolute;
+  top: 80%;
+  left: -80px;
+  transform: translateY(-80%);
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-size: 140px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #114455;
+  background: linear-gradient(to right, #114455 0, #114455 80px, #FFFFFF 0%, #FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
