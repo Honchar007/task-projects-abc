@@ -4,6 +4,7 @@
 @import url('./icons/index.css');
 @import url('./header/index.css');
 @import url('./main/index.css');
+@import url('./footer/index.css');
 
 html, body {
   font-family: 'Gilroy', Arial, sans-serif;

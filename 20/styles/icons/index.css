@@ -25,3 +25,28 @@
 .down {
   background-position: 0 0;
 }
+
+.icn-social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('../../assets/icons/socials.svg');
+  background-size: 40px 160px;
+}
+
+.instagram {
+  background-position: 0 0;
+}
+
+.facebook {
+  background-position: 0 -40px;
+}
+
+.twitter {
+  background-position: 0 -80px;
+}
+
+.linkedin {
+  background-position: 0 -120px;
+}
+
