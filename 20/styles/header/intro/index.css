@@ -4,7 +4,7 @@
   gap: 1.563vw;
   width: 100%;
   margin-top: 2.604vw;
-  padding-bottom: 20.833vw;
+  padding-bottom: 19vw;
 }
 
 .intro > .nav-link {
@@ -26,10 +26,31 @@
 }
 
 .intro .title {
-  font-size: 4.651vw;
   width: 42.674vw;
+  margin-top: 8.854vw;
 }
 
-.intro .subtitle {
-  font-size: 1.977vw;
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .intro > .nav-link {
+    padding: 32px 14px;
+    width: 200px;
+  }
+
+  .intro .nav-text::after {
+    width: 32px;
+    height: 32px;
+    margin-left: 12px;
+    background-size: 32px 64px;
+    background-position: 0 -32px;
+  }
+
+  .intro .title {
+    width: 100%;
+    font-size: 80px;
+  }
+
+  .intro .subtitle {
+    width: 100%;
+    font-size: 26px;
+  }
 }

@@ -11,6 +11,18 @@
   color: #1F1F1F;
 }
 
-.heading > .subtitle {
+.heading > .subtitle-2 {
   width: 62.558vw;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .heading > .title {
+    width: 100%;
+    font-size: 80px;
+  }
+
+  .heading > .subtitle-2 {
+    width: 100%;
+    font-size: 20px;
+  }
 }

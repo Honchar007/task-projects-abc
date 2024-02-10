@@ -4,15 +4,18 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 2.292vw 5.208vw;
-  width: 100%;
+  padding: 2.292vw 5.208vw 1vw;
+  width: 100vw;
+  height: 100vh;
   background-image: url('../../assets/images/header.png');
   background-size: cover;
-  background-position: center top;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
-.header-wrapper > span {
+.header-wrapper > a {
+  position: absolute;
+  bottom: 3.073vw;
   display: block;
   align-self: center;
 }
@@ -80,4 +83,35 @@
 
 .exp {
   margin-top: 2.326vw;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .header-wrapper > a {
+    bottom: 59px;
+  }
+
+  .logo {
+    width: 175px;
+    height: 32px;
+  }
+
+  .nav-link {
+    width: 200px;
+    height: 56px;
+    padding: 12px 24px;
+    font-size: 20px;
+  }
+
+  .header .nav .nav-text::after {
+    width: 36px;
+    height: 36px;
+    margin-left: 16px;
+    background-size: 36px 72px;
+  }
+
+  .icn-expand {
+    width: 39px;
+    height: 30px;
+    background-size: 39px 30px;
+  }
 }

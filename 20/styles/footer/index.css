@@ -31,3 +31,35 @@
 .socials > .icn-social:hover {
   cursor: pointer;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer-text {
+    font-size: 20px;
+  }
+
+  .link-wrapper {
+    width: 100%;
+  }
+
+  .icn-social {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 160px;
+  }
+
+  .instagram {
+    background-position: 0 0;
+  }
+
+  .facebook {
+    background-position: 0 -40px;
+  }
+
+  .twitter {
+    background-position: 0 -80px;
+  }
+
+  .linkedin {
+    background-position: 0 -120px;
+  }
+}
