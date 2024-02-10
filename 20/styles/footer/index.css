@@ -3,11 +3,22 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  gap: 0.6vw;
   padding: 4.271vw 5.208vw;
+}
+
+.footer-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .footer-wrapper > .footer-text {
   width: 62.558vw;
+}
+
+.footer-wrapper > .link-wrapper > .footer-text {
+  width: 10.698vw;
 }
 
 .link-wrapper {
@@ -33,12 +44,16 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+  .link-wrapper {
+    width: 100%;
+  }
+
   .footer-text {
     font-size: 20px;
   }
 
-  .link-wrapper {
-    width: 100%;
+  .footer-wrapper > .link-wrapper > .footer-text {
+    width: 184px;
   }
 
   .icn-social {
