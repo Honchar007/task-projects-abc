@@ -4,7 +4,7 @@
 .main-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 4.651vw;
 }
 
 .heading > .title {
@@ -12,5 +12,5 @@
 }
 
 .heading > .subtitle {
-  width: 60%;
+  width: 62.558vw;
 }

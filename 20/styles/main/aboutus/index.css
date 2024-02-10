@@ -1,11 +1,11 @@
 .aboutus {
-  margin-top: 80px;
+  padding: 7.5vw 5.208vw;
 }
 
 .video-container {
   position: relative;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 3.646vw;
   padding-top: 56.25%; /* 9:16 aspect ratio (16 / 9 = 1.7777) */
   overflow: hidden;
 }

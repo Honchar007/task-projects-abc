@@ -4,7 +4,7 @@
   font-family: 'Gilroy';
   font-weight: 800;
   font-style: normal;
-  font-size: 80px;
+  font-size: 4.651vw;
   color: #114455;
   letter-spacing: 0em;
   text-align: left;
@@ -15,7 +15,7 @@
   color: #1F1F1F;
   font-weight: 300;
   font-style: normal;
-  font-size: 28px;
+  font-size: 1.6vw;
   text-align: left;
 }
 
@@ -24,6 +24,15 @@
   color: #1F1F1F;
   font-weight: 500;
   font-style: normal;
-  font-size: 28px;
+  font-size: 1.6vw;
+  text-align: left;
+}
+
+.footer-text {
+  font-family: 'Gilroy';
+  color: #1F1F1F;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.163vw;
   text-align: left;
 }

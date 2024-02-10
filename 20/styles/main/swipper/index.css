@@ -1,5 +1,5 @@
 .swipper {
-  padding: 100px 104px;
+  padding: 5.208vw 5.417vw;
 }
 
 .swipper .heading .subtitle-2{
@@ -11,7 +11,7 @@
   flex-direction: row;
   overflow-y: hidden;
   overflow-x: auto;
-  margin-top: 100px;
+  margin-top: 5.208vw;
 }
 
 .card-wrapper {

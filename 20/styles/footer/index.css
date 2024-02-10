@@ -3,21 +3,24 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 80px;
-  padding: 82px 100px;
+  padding: 4.271vw 5.208vw;
+}
+
+.footer-wrapper > .footer-text {
+  width: 62.558vw;
 }
 
 .link-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: calc(100% / 3);
+  width: 37.442vw;
 }
 
 .socials {
   display: flex;
   align-items: center;
-  gap: 10px
+  gap: 1.551vw;
 }
 
 .socials > .icn-social {

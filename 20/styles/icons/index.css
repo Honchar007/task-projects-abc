@@ -1,9 +1,9 @@
 .icn-arrow {
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 1.86vw;
+  height: 1.86vw;
   background-image: url('../../assets/icons/arrow-right.svg');
-  background-size: 32px 64px;
+  background-size: 1.86vw 3.721vw;
 }
 
 .right-green {
@@ -11,7 +11,7 @@
 }
 
 .right-white {
-  background-position: 0 -32px;
+  background-position: 0 -1.86vw;
 }
 
 .icn-expand {
@@ -28,10 +28,10 @@
 
 .icn-social {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 2.326vw;
+  height: 2.326vw;
   background-image: url('../../assets/icons/socials.svg');
-  background-size: 40px 160px;
+  background-size: 2.326vw 9.302vw;
 }
 
 .instagram {
@@ -39,14 +39,14 @@
 }
 
 .facebook {
-  background-position: 0 -40px;
+  background-position: 0 -2.326vw;
 }
 
 .twitter {
-  background-position: 0 -80px;
+  background-position: 0 -4.651vw;
 }
 
 .linkedin {
-  background-position: 0 -120px;
+  background-position: 0 -6.977vw;
 }
 

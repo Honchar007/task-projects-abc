@@ -61,11 +61,11 @@
   display: inline-block;
   text-align: center;
   content: '';
-  width: 1.667vw;
-  height: 1.667vw;
+  width: 1.86vw;
+  height: 1.86vw;
   margin-left: 0.833vw;
   background-image: url('../../assets/icons/arrow-right.svg');
-  background-size: 1.667vw 3.333vw;
+  background-size: 1.86vw 3.721vw;
   background-position: 0 0;
 }
 

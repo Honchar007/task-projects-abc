@@ -18,6 +18,6 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 4.167vw;
   min-height: 100vh;
 }
