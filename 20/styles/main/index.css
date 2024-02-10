@@ -9,10 +9,20 @@
 
 .heading > .title {
   color: #1F1F1F;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .heading > .subtitle-2 {
   width: 62.558vw;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
