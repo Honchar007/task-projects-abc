@@ -2,7 +2,9 @@
 @import url('./aboutus/index.css');
 
 .main-wrapper {
-  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .heading > .title {

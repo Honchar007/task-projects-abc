@@ -4,7 +4,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 40px 40px;
+  padding: 2.292vw 5.208vw;
   width: 100%;
   background-image: url('../../assets/images/header.png');
   background-size: cover;
@@ -30,19 +30,43 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  gap: 40px;
+  gap: 2.083vw;
   color: #114455;
+}
+
+.logo {
+  width: 10.202vw;
+  height: 1.86vw;
 }
 
 .nav-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 10px 20px;
+  width: 10.523vw;
+  height: 2.917vw;
+  padding: 0.625vw 1.25vw;
   font-family: 'Gilroy';
+  font-size: 1.042vw;
   font-weight: 800;
-  font-style: normal;
+}
+
+.nav-text {
+  display: flex;
+  align-items: center;
+}
+
+.header .nav .nav-text::after {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  content: '';
+  width: 1.667vw;
+  height: 1.667vw;
+  margin-left: 0.833vw;
+  background-image: url('../../assets/icons/arrow-right.svg');
+  background-size: 1.667vw 3.333vw;
+  background-position: 0 0;
 }
 
 .outline {
@@ -52,4 +76,8 @@
 .primary {
   background-color: #114455;
   color: white;
+}
+
+.exp {
+  margin-top: 2.326vw;
 }

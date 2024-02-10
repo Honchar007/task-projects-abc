@@ -16,10 +16,10 @@
 
 .icn-expand {
   display: inline-block;
-  width: 38px;
-  height: 28px;
+  width: 2.209vw;
+  height: 1.628vw;
   background-image: url('../../assets/icons/expand.svg');
-  background-size: 38px 28px;
+  background-size: 2.209vw 1.628vw;
 }
 
 .down {

@@ -1,12 +1,35 @@
 .intro {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 1.563vw;
   width: 100%;
-  margin-top: 50px;
-  padding-bottom: 400px;
+  margin-top: 2.604vw;
+  padding-bottom: 20.833vw;
 }
 
 .intro > .nav-link {
-  width: 200px;
+  padding: 0.729vw 1.667vw;
+  width: 11.628vw;
+}
+
+.intro .nav-text::after {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  content: '';
+  width: 1.667vw;
+  height: 1.667vw;
+  margin-left: 0.833vw;
+  background-image: url('../../../assets/icons/arrow-right.svg');
+  background-size: 1.667vw 3.333vw;
+  background-position: 0 -1.66vw;
+}
+
+.intro .title {
+  font-size: 4.651vw;
+  width: 42.674vw;
+}
+
+.intro .subtitle {
+  font-size: 1.977vw;
 }

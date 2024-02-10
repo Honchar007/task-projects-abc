@@ -10,8 +10,14 @@ html, body {
   font-family: 'Gilroy', Arial, sans-serif;
 }
 
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .container {
   display: flex;
   flex-direction: column;
+  gap: 80px;
   min-height: 100vh;
 }
