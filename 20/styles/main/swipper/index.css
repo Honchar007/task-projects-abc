@@ -8,6 +8,8 @@
   overflow-y: hidden;
   overflow-x: auto;
   margin-top: 5.208vw;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .card-wrapper {
@@ -33,9 +35,13 @@
 
 .city {
   position: absolute;
+  width: 37.5vw;
   top: 80%;
   left: -4.167vw;
   transform: translateY(-80%);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-family: 'Gilroy';
   font-weight: 800;
   font-size: 7.292vw;
