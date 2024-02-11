@@ -36,3 +36,19 @@
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .main-wrapper {
+    gap: 21.333vw;
+  }
+
+  .heading > .title {
+    font-size: 8.533vw;
+  }
+
+  .heading > .subtitle-2 {
+    width: 77.6vw;
+    font-size: 4.267vw;
+    -webkit-line-clamp: 5;
+  }
+}

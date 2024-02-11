@@ -22,3 +22,9 @@ body {
   gap: 4.167vw;
   min-height: 100vh;
 }
+
+@media screen and (max-width: 767px) {
+  .container {
+    gap: 21.333vw;
+  }
+}

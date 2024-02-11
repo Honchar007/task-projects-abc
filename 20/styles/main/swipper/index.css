@@ -52,3 +52,33 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media screen and (max-width: 767px) {
+  .swipper {
+    padding: 0 5.417vw;
+  }
+
+  .card-list {
+    margin-top: 8.267vw;
+  }
+
+  .card-wrapper {
+    width: 59.733vw;
+    height: 70.4vw;
+    margin-left: 17.333vw;
+  }
+
+  .card-wrapper:first-child {
+    margin-left: 8.8vw;
+  }
+
+  .city {
+    width: 65vw;
+    top: 80%;
+    left: -8.8vw;
+    font-size: 16vw;
+    background: linear-gradient(to right, #114455 0, #114455 8.8vw, #FFFFFF 0%, #FFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

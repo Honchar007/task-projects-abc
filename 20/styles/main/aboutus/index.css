@@ -17,3 +17,14 @@
   width: 100%;
   height: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .aboutus {
+    padding: 0 5.208vw;
+  }
+
+  .video-container {
+    margin-top: 10.667vw;
+    padding-top: 103.33%;
+  }
+}

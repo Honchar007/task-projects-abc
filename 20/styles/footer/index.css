@@ -78,3 +78,58 @@
     background-position: 0 -120px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer-wrapper {
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 8.533vw;
+    padding: 8.533vw 0;
+  }
+
+  .link-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.267vw;
+  }
+
+  .footer-text {
+    text-align: center;
+  }
+
+  .footer-wrapper > .footer-text {
+    font-size: 3.733vw;
+  }
+
+  .footer-wrapper > .link-wrapper > .footer-text {
+    width: 40.533vw;
+    font-size: 4.267vw;
+  }
+
+  .socials {
+    gap: 6.4vw;
+  }
+
+  .icn-social {
+    width: 6.4vw;
+    height: 6.4vw;
+    background-size: 6.4vw 25.6vw;
+  }
+
+  .instagram {
+    background-position: 0 0;
+  }
+
+  .facebook {
+    background-position: 0 -6.4vw;
+  }
+
+  .twitter {
+    background-position: 0 -12.8vw;
+  }
+
+  .linkedin {
+    background-position: 0 -19.2vw;
+  }
+}
