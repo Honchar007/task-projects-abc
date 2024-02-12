@@ -50,6 +50,10 @@
 
 .intro-mobile > .big-logo {
   width: 64.8vw;
+  height: 11.733vw;
+  background-image: url('../../../assets/logo.svg');
+  background-size: 64.8vw 23.466vw;
+  background-position: 0 -11.733vw;
 }
 
 .intro-mobile > .subtitle {

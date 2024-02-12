@@ -79,6 +79,9 @@
 .logo {
   width: 10.202vw;
   height: 1.86vw;
+  background-image: url('../../assets/logo.svg');
+  background-size: 10.202vw 3.72vw;
+  background-position: 0 0;
 }
 
 .nav-link {
@@ -142,6 +145,8 @@
   .logo {
     width: 175px;
     height: 32px;
+    background-size: 175px 64px;
+    background-position: 0 0;
   }
 
   .nav-link {
@@ -178,14 +183,16 @@
 @media screen and (max-width: 767px) {
   .header-wrapper {
     padding: 13.333vw 6.4vw;
-    background-image: url('../../assets/images/header2.jpg');
+    background-image: url('../../assets/images/header.png');
     background-size: auto 100vh;
-    background-position: -53.333vw 0px;
+    background-position: -53.333vw center;
   }
 
   .logo {
     width: 29.245vw;
-    height: 8.533vw;
+    height: 5.333vw;
+    background-size: 29.245vw 10.666vw;
+    background-position: 0 0;
   }
 
   .nav {
@@ -203,6 +210,6 @@
   }
 
   .header-wrapper > a {
-    bottom: 8.533vw;
+    bottom: 12vw;
   }
 }
